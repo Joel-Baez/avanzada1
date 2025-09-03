@@ -5,8 +5,20 @@ body {
     line-height: 1.6;
     text-align: center;
     margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, 
+        #4B0000,  
+        #8B0000,  
+        #B22222,  
+        #DC143C,  
+        #FF4500,  
+        #FF6347
+    );
+    background-size: 600% 600%;
+    animation: gradientBG 8s ease infinite;
+    color: #000;
 }
+
 .menu {
     background-color: #8e0606;   
     padding: 10px;
@@ -25,7 +37,7 @@ body {
 }
 
 .menu a:hover {
-    color: #ffd700;             
+    color: #aeff00;             
 }
 
 .circulo {
@@ -100,6 +112,10 @@ h3 {
     align-items: flex-start;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.contenedor {
+    text-align: center;
 }
 
 .album-blessd-medellin {
@@ -240,7 +256,6 @@ h3 {
     box-shadow: 0 0 8px #888;
     margin: 0 auto;
 
-
 }
 .album-feid-FERXXOCALIPSIS{
      width: 150px;
@@ -295,7 +310,7 @@ h3 {
     margin: 0 auto;
 
 }
-.album-Karolg-KG0515{
+.album-KarolG-KG0515{
     width: 150px;
     height: 150px;
     background-image: url('../recursos/KG0516.png');

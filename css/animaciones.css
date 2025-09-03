@@ -53,3 +53,36 @@
 .bounce {
     animation: bounce 2s infinite;
 }
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 100% 50%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 50%; }
+}
+
+.shake {
+    display: inline-block;
+    animation: shake 1s infinite;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-8px); }
+    40%, 80% { transform: translateX(8px); }
+}
+
+.rainbow {
+    color: #fff;
+    animation: rainbow 3s infinite linear;
+}
+
+@keyframes rainbow {
+    0%   { text-shadow: 0 0 10px red; }
+    20%  { text-shadow: 0 0 10px orange; }
+    40%  { text-shadow: 0 0 10px yellow; }
+    60%  { text-shadow: 0 0 10px green; }
+    80%  { text-shadow: 0 0 10px blue; }
+    100% { text-shadow: 0 0 10px violet; }
+}
