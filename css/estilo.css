@@ -1,36 +1,36 @@
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        color: #333;
-        line-height: 1.6;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
 
-    .circulo {
-        width: 250px;
-        height: 250px;
-        border: 2px solid rgb(142, 6, 6);
-        border-radius: 50%;
-        background-color: rgb(142, 6, 6);
-        background-image: url('../recursos/ab67706c0000da845ae1572eeb5915f08b3b6aef.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin: 0 auto; 
-        box-shadow: 0px 0px 10px 5px rgb(235, 13, 13);
-    }
+.circulo {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(142, 6, 6);
+    border-radius: 50%;
+    background-color: rgb(142, 6, 6);
+    background-image: url('../recursos/ab67706c0000da845ae1572eeb5915f08b3b6aef.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto; 
+    box-shadow: 0px 0px 10px 5px rgb(235, 13, 13);
+}
 
-    .index-section {
-        max-width: 700px;
-        margin: 0 auto;
-        text-align: left;
-        background: #fff6;
-        border-radius: 12px;
-        padding: 20px;
-        box-shadow: 0 2px 8px #ccc;
-    }
+.index-seccion {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.6); 
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgb(235, 13, 13);
+}
 
     .contenido {
         display: flex;
@@ -67,8 +67,9 @@
     .biografias h2 {
         margin-top: 0;
     }
+    
 
-    /* ====== DISCOGRAFIA.HTML ====== */
+    /* DISCOGRAFIA.HTML */
     .discografia-albumes {
         display: flex;
         gap: 40px;
@@ -81,7 +82,7 @@
         height: 150px;
         background-image: url('../recursos/hecho en medellin.png');
         background-size: cover;
-        background-position: center;
+        background-position: left;
         border-radius: 20px;
         box-shadow: 0 0 8px #888;
         margin: 0 auto;
@@ -100,7 +101,7 @@
         width: 150px;
         height: 150px;
         background-image: url('../recursos/siempre blessd.png');
-        background-size: cover;
+        background-size: rigt;
         background-position: center;
         border-radius: 20px;
         box-shadow: 0 0 8px #888;
@@ -164,7 +165,17 @@
         box-shadow: 0 0 8px #888;
         margin: 0 auto;
     }
-    .contact-form {
+    .album-maluma-prettyboy {
+        width: 150px;
+        height: 150px;
+        background-image: url('../recursos/godfather.png');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        box-shadow: 0 0 8px #888;
+        margin: 0 auto;
+    }
+    .formulario-contacto {
         max-width: 400px;
         margin: 0 auto 30px auto;
         background: #fff;
@@ -175,19 +186,19 @@
         flex-direction: column;
         gap: 12px;
     }
-    .contact-form label {
+    .formulario-contacto label {
         font-weight: bold;
         margin-bottom: 4px;
     }
-    .contact-form input,
-    .contact-form textarea {
+    .formulario-contacto input,
+    .formulario-contacto textarea {
         border: 1px solid #ccc;
         border-radius: 6px;
         padding: 8px;
         font-size: 16px;
         margin-bottom: 8px;
     }
-    .contact-form button {
+    .formulario-contacto button {
         background: rgb(235, 13, 13);
         color: #fff;
         border: none;
@@ -197,7 +208,7 @@
         cursor: pointer;
         transition: background 0.3s;
     }
-    .contact-form button:hover {
+    .formulario-contacto button:hover {
         background: #6DE39C;
         color: #333;
     }
